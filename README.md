@@ -11,13 +11,16 @@ Followed by asking you for the productions (the ammount you specified on the fir
 You can see the CYK table generated for the algorythm in the console.
 
 
-Example:
+**Example:**
 Ammount of productions (Cantidad de producciones): 4
 String to evaluate (Cadena a evaluar): baaba
-Production 0: S->AB|BC
-A->BA|a
-B->CC|b
-C->AB|a
+Production
+<ol>
+<li>S->AB|BC</li>
+<li>A->BA|a</li>
+<li>B->CC|b</li>
+<li>C->AB|a</li>
+</ol>
 
 That generates the following CYK table:
 |0|1|2|3|4|
@@ -30,4 +33,5 @@ That generates the following CYK table:
 
 And prints the following parse tree:
 
+![Parse tree img](https://github.com/MiltonEBR/CYKAlgorithm/blob/main/Screenshot_128.png)
 
