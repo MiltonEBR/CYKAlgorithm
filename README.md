@@ -12,9 +12,12 @@ You can see the CYK table generated for the algorythm in the console.
 
 
 **Example:**
+
 Ammount of productions (Cantidad de producciones): 4
+
 String to evaluate (Cadena a evaluar): baaba
-Production
+
+Productions
 <ol>
 <li>S->AB|BC</li>
 <li>A->BA|a</li>
